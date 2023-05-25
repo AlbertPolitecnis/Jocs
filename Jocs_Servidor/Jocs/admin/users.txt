@@ -1,0 +1,4 @@
+Ps1:a:qw:ed:sa:$2a$10$e8Kv.z8Vc6uFnCoSo7mQje0VKJjXF0hHFOAQV1jtpttP8bG7/ThoO:785.0:Encripta una imatge;true;0:Segon Joc;false;2
+G4t0eln00b:Manel:jiji:asdaw:qw:$2a$10$vVX5ebm3LEVhpViiE4weRuQdidKWsvjcBMV9dcyf0.NuD3aQMzpiq:580.0:Encripta una imatge;false;1:Segon Joc;true;0
+2:2:2:2:2:$2a$10$YiSKH1neg0QQpmbZx67rN.Yd9AcpkWpmjOjSGQHHSaiiEhxknPZjq:1000.0:Encripta una imatge;false;0:Segon Joc;false;0
+1:1:1:1:1:$2a$10$CkrNO0bQN1AMIB7/NlVee.3ZnjgbB5AkC7cfEZpfVDC2LFUVOzUgO:1000.0:Encripta una imatge;false;0:Segon Joc;false;0

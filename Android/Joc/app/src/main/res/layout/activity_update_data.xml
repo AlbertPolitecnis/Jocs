@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activities.UpdateDataActivity"
+    android:background="@drawable/zelda">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/BtnGoBackOptions"
+            style="@style/btn_go_back"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnGoBackOptions" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutRegisterUserName"
+            style="@style/text_input_layout"
+            android:layout_marginTop="24dp"
+            android:hint="Nom d'usuari"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TxtRegisterUsername"
+                style="@style/text_input_edit_text"
+                android:layout_width="match_parent" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutRegisterPassword"
+            style="@style/text_input_layout"
+            android:layout_marginTop="20dp"
+            android:hint="Contrasenya"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutRegisterUserName">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TxtRegisterPassword"
+                style="@style/text_input_edit_text"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutRegisterCheckPasswd"
+            style="@style/text_input_layout"
+            android:layout_marginTop="20dp"
+            android:hint="Confiramr Contrasenya"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutRegisterPassword">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TxtRegisterCheckPasswd"
+                style="@style/text_input_edit_text"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutRegisterName"
+            style="@style/text_input_layout"
+            android:layout_marginTop="20dp"
+            android:hint="Nom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutRegisterCheckPasswd">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TxtRegisterName"
+                style="@style/text_input_edit_text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutRegisterSurnames"
+            style="@style/text_input_layout"
+            android:layout_marginTop="20dp"
+            android:hint="Cognoms"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutRegisterName">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TxtRegisterSurnames"
+                style="@style/text_input_edit_text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutRegisterCC"
+            style="@style/text_input_layout"
+            android:layout_marginTop="20dp"
+            android:hint="Compte corrent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutRegisterSurnames">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TxtRegisterCC"
+                style="@style/text_input_edit_text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutRegisterMail"
+            style="@style/text_input_layout"
+            android:layout_marginTop="20dp"
+            android:hint="Mail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutRegisterCC">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TxtRegisterMail"
+                style="@style/text_input_edit_text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/BtnConfirmUpdate"
+            style="@style/btn_gradient"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="24dp"
+            android:text="Confirm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayoutRegisterMail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

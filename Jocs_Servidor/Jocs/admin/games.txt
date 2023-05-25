@@ -1,0 +1,2 @@
+Encripta una imatge:50:10
+Segon Joc:75:15

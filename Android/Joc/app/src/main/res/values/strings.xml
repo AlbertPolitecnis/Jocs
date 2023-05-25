@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Joc</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="iniciar_sessio">Iniciar sessió</string>
+    <string name="register_new_user"><u>Registrar nou usuari</u></string>
+    <string name="string_play">Jugar</string>
+    <string name="string_manage_games">Gestionar jocs</string>
+    <string name="string_manage_money">Gestionar saldo</string>
+    <string name="string_manage_user">Gestionar usuari</string>
+    <string name="close_game">Tancar</string>
+    <string name="buy_games">Partides</string>
+    <string name="buy_tarifa">Tarifa plana</string>
+    <string name="escollir_opcio_comprar">Què vols comprar?</string>
+    <string name="escollir_opcio">Què vols fer?</string>
+    <string name="treure_diners">Treure diners</string>
+    <string name="afegir_diners">Afegir diners</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="afegir">Afegir</string>
+    <string name="retirar">Retirar</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="play_game">Jugar</string>
+</resources>
